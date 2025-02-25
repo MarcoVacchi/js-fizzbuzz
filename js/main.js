@@ -44,19 +44,18 @@ for ( let i = 1; i <= 100; i++) { //indice di partenza 'i';
    
     // creo la condizione all'interno del mio ciclo;
 
-    let multi3 = (i % 3); // variabile multiplo di 3;
+    let multi3 = (i % 3) ===0; // variabile multiplo di 3;
 
-    let multi5 = (i % 5); // variabile multiplo di 5;
+    let multi5 = (i % 5) ===0; // variabile multiplo di 5;
                                             
-    if (multi3 === 0 && multi5 === 0) {        
-        console.log('FizzBuzz'); // variabile multiplo di 3 e 5;
-    }
-    
-    else if (multi3 === 0) {
-        console.log ('Fizz'); // stampa Fizz;
+    if (multi3 && multi5) {        
+        console.log('FizzBuzz'); // stampa FizzBuzz al posto del 3 e 5 e i loro multipli;
+ 
+    } else if (multi3) {
+        console.log ('Fizz'); // stampa Fizz al posto del numero 3 e i suoi multipli;
 
-    } else if (multi5 === 0) {
-        console.log ('Buzz'); // stampa Buzz;
+    } else if (multi5) {
+        console.log ('Buzz'); // stampa Buzz al posto del numero 5 e i suoi multipli;
 
     } else {
         console.log(i); // stampa i numeri normali;
