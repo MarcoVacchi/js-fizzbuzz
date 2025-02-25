@@ -25,6 +25,7 @@ prima di tutto, nel file README, indicate tutti i passaggi utili allo svolgiment
 ### Procedimento pseudo codice
 
 - creo il ciclo;
+  - creo due variabili per controllare i divisori e sostituirli con le stringe;
   - al suo interno creo una variabile che dovrà essere incrementata di volta in volta fino a 100;
   - do un valore numerico alla mia variabile;
   - imposto il limite al mio contatore
@@ -38,7 +39,27 @@ prima di tutto, nel file README, indicate tutti i passaggi utili allo svolgiment
 
  //creo il ciclo di partenza
 
+ 
 for ( let i = 1; i <= 100; i++) { //indice di partenza 'i';
-    console.log (i);
-    console.log ('Ciao marco');
+   
+    // creo la condizione all'interno del mio ciclo;
+
+    let multi3 = (i % 3); // variabile multiplo di 3;
+
+    let multi5 = (i % 5); // variabile multiplo di 5;
+                                            
+    if (multi3 === 0 && multi5 === 0) {        
+        console.log('FizzBuzz'); // variabile multiplo di 3 e 5;
+    }
+    
+    else if (multi3 === 0) {
+        console.log ('Fizz'); // stampa Fizz;
+
+    } else if (multi5 === 0) {
+        console.log ('Buzz'); // stampa Buzz;
+
+    } else {
+        console.log(i); // stampa i numeri normali;
+    }
+        
 }
