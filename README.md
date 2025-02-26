@@ -29,8 +29,8 @@ prima di tutto, nel file README, indicate tutti i passaggi utili allo svolgiment
   - do un valore numerico alla mia variabile;
   - imposto il limite al mio contatore
     - creo una condizione all'interno del mio ciclo utilizzando SE;
+      - SE multiplo di 3 e 5, stampa FizzBuzz;
       - SE multiplo di 3, stampa Fizz;
       - SE multiplo di 5, stampa Buzz; 
-      - SE multiplo di 3 e 5, stampa FizzBuzz;
  - finché il contatore non arriva a 100;
  - stampo;
