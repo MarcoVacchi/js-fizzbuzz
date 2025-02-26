@@ -45,9 +45,9 @@ for ( let i = 1; i <= 100; i++) { //indice di partenza 'i';
    
     // creo la condizione all'interno del mio ciclo;
 
-   // let multi3 = (i % 3) ===0;  variabile multiplo di 3;  ci sono diversi modi di svolgere il ciclo
+   // const multi3 = (i % 3) ===0;  variabile multiplo di 3;  ci sono diversi modi di svolgere il ciclo
 
-   // let multi5 = (i % 5) ===0; variabile multiplo di 5;
+   // const multi5 = (i % 5) ===0; variabile multiplo di 5;
                                             
     if (i % 3 === 0 && i % 5 === 0) {        
         console.log('FizzBuzz'); // stampa FizzBuzz al posto del 3 e 5 e i loro multipli;
