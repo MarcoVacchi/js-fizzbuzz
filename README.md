@@ -30,7 +30,7 @@ prima di tutto, nel file README, indicate tutti i passaggi utili allo svolgiment
   - imposto il limite al mio contatore
     - creo una condizione all'interno del mio ciclo utilizzando SE;
       - SE multiplo di 3 e 5, stampa FizzBuzz;
-      - SE multiplo di 3, stampa Fizz;
-      - SE multiplo di 5, stampa Buzz; 
+      - ALTRIMENNTI SE multiplo di 3, stampa Fizz;
+      - ALTRIMENTI multiplo di 5, stampa Buzz; 
  - finché il contatore non arriva a 100;
  - stampo;
